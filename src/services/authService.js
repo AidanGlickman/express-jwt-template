@@ -6,7 +6,7 @@ import validator from 'validator';
 
 function generateJWT(user) {
   const data = {
-    uuid: user.uuid,
+    id: user.id,
     username: user.username,
     email: user.email,
   };
@@ -18,6 +18,9 @@ function generateJWT(user) {
 }
 
 const authService = {
+  generateToken: (user) => {
+    return generateJWT(user);
+  },
   register: async (email, password, username) => {
     if (!validator.isEmail(email)) {
       throw new Error('Invalid email');
