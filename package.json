@@ -1,7 +1,7 @@
 {
-  "name": "shorten-api",
+  "name": "express-jwt-template",
   "version": "1.0.0",
-  "description": "Express API for the shorten service",
+  "description": "Express API for basic user authentication",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
