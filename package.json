@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aidan Glickman",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "argon2": "^0.26.2",
     "cors": "^2.8.5",
